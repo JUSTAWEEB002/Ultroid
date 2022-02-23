@@ -138,7 +138,7 @@ async def goimg(event):
     await nn.delete()
 
 
-@ultroid_cmd(pattern="reverse$")
+@ultroid_cmd(pattern="pp$")
 async def reverse(event):
     reply = await event.get_reply_message()
     if not reply:
